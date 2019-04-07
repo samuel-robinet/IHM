@@ -1,0 +1,39 @@
+/*
+* TODO (1) Donnez a l'element body un margin de 0px, un padding de 0px, et une font-family de "Roboto" comme premier choix suivi de la police "sans-serif".
+
+* TODO (2) Donnez a l'element avec l'id "header" un margin de 0px, un padding de 24px, un poid de police (font-weight) de "normal" (pour enlever le gras) et une taille de police de 20px; puis centrez le text (text-align).
+
+* TODO (3) Donnez aux elements h2 une marge en haut de 0px, et en bas de 0px. Un padding de 16px. La taille de la police doit etre de 20px et sans gras.
+
+* TODO (4) Donnez aux elements qui ont la classe "conteneur" une largeur (width) de 50%, une marge en haut de 17px en le centrant horizontalement (utilisez auto pour left/right), et une bordure solide (solid) de 1px de couleur rgba(0, 0, 0, 0.14);
+
+* TODO (5) Donnez aux elements qui ont la classe "contenu" un padding de 16px;
+
+* TODO (6) Donnez aux paragraphes une taille de police de 17px, avec un alignement de texte 'justifié' (text-align: justify), et une marge en haut de 17px;
+
+* TODO (7) Donnez aux elements qui ont la classe "important" une couleur de #E57373; 
+*/
+
+
+body {
+	background-color: #F9F9F9;
+}
+
+#header {
+	background-color: #425566;
+	color: white;
+}
+
+h2 {	
+	background-color: #E57373;
+	color: white;
+}
+
+.conteneur {
+	background-color: white;
+}
+
+
+p {
+	color: rgba(0, 0, 0, 0.8);
+}

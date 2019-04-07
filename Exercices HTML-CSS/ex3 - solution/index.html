@@ -1,0 +1,54 @@
+<!--
+* TODO (1) Changer la classe du permier div de classe "conteneur" en class "conteneur-rouge"
+
+* TODO (2) Changer la classe du deuxieme div de classe "conteneur" en class "conteneur-bleu"
+-->
+
+<html>
+<head>
+	<title>CSS Exercice 03</title>	
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h1 id="header">CSS Excercice 03</h1>
+
+<div class="conteneur-rouge">
+	<h2>Une div qui contient des paragraphes</h2>
+	<div class="contenu"> 
+		<p>
+		On fait nos premiers pas en <span class="important">CSS</span> pour pouvoir faire de jolis sites web en utiliant les principes de <a href="https://material.io/guidelines/">Material Design</a>.
+		</p>
+
+		<p>
+		Pour modifier la couleur du texte ou de l'arriere plan d'une balise on utilise <span class="important">color</span> et <span class="important">background-color</span>. Ces couleurs peuvent etre definies avec des couleurs de bases (e.g. red, blue, etc.), avec des valeur hexadecimales (e.g. #000000), ou alors avec des valeur RGB (rgb(0,0,0)). On peut aussi controlller l'opacite d'une couleur avec RGBA (e.g. rgba(0,0,0,1))
+		</p>
+
+		
+		<p>
+		Pour modifier la police d'un texte, on utilise la proriete <span class="important">font-family</span> qui permet de definir plusieur polices, dans le cas ou le navigateur n'arrive pas a trouver la premiere police. En important la police "Roboto" on rendre nos textes plus jolis
+		</p>
+
+		<p>
+		<span class="important">CSS</span> nous permet de modifier la taille des balises <span class="important">block</span> en utilisant les propriétés <span class="important">width</span> et <span class="important">height</span>. On peut aussi modifier l'espace à l'intérieur et à l'extérieur des balises en utilisant <span class="important">padding</span> et <span class="important">margin</span>.
+		</p>
+	</div>
+</div>
+
+<div class="conteneur-bleu">
+	<h2>Une autre div qui contient des paragraphes</h2>
+	<div class="contenu"> 
+		<p>
+		Les <span class="important">sélécteurs</span> nous permettent d'avoir un <span class="important">controle plus raffiné</span> sur les éléments qu'on veut styler, par exemple, on peut juste changer la couleur du titre de la div conteneur en bleu ou rouge sans avoir à donner une classe spécifique pour le l'élément h2 ou aux éléments avec la classe "important".
+		</p>
+		
+		<button>MATERIAL DESIGN</button>
+	</div>
+</div>
+
+
+</body>
+</html>

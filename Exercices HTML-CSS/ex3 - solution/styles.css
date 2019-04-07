@@ -1,0 +1,95 @@
+/*
+* TODO (1) On a plus de classe "conteneur", changez la en "conteneur-rouge" et "conteneur-bleu", pour appliquer le meme style aux deux classe: .conteneur-rouge, .conteneur-bleu { ...
+
+* TODO (2) Adaptez les styles affectés aux elements h2 selon la classe de la div qui les contient en utilisant par exemple .conteneur-rouge h2 {.
+les h2 qui sont dans .conteneur-rouge doivent avoir une background-color de #E57373, et les h2 qui sont dans .conteneur-rouge doivent avoir une background-color de #64B5F6.
+
+
+* TODO (3) Adaptez les styles affectés aux elements qui ont la classe "important" selon la classe de la div qui les contient:
+ceux qui sont dans .conteneur-rouge doivent avoir une couleur de #E57373, et ceux qui sont dans .conteneur-rouge doivent avoir une couleur de #64B5F6.
+
+* TODO (4) Donnez au bouton une background-color de #64B5F6, une couleur blanche, un padding en haut et bas de 6px et a gauche et droite de 8px, une bordure solide 1px de couleur rgba(0, 0, 0, 0.14), et une police de Roboto, sans-serif.
+
+* TODO (5) Centrer le bouton horizontalement (les boutons sont des balise inline, transformer le en balise block, puis donnez lui une margin left/right de auto et une margin top/bottom de 0px).
+
+* TODO (6) Tous les paragraphes qui sont les premier enfants de leur element parent doivent avoir une margin-top de 0px; (p:first-child)
+
+* TODO (7) Quand la souris de l'utilisateur se met sur les liens (a:hover) la couleur du lien doit devenir #E57373
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, sans-serif;
+	background-color: #F9F9F9;
+}
+
+#header {
+	margin: 0px;
+	padding: 24px;
+	background-color: #425566;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+h2 {	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 16px;
+	color: white;
+}
+
+.conteneur-rouge h2 {
+	background-color: #E57373;
+}
+.conteneur-bleu h2 {
+	background-color: #64B5F6;
+}
+
+
+.conteneur-rouge, .conteneur-bleu {
+	background-color: white;
+	width: 50%;
+	margin: 17px auto 0px auto;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.contenu {
+	padding: 16px;
+}
+
+p {
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 17px;
+	color: rgba(0, 0, 0, 0.8);
+}
+p:first-child {
+	margin-top: 0px;
+}
+
+.conteneur-rouge .important {
+	color: #E57373;
+}
+.conteneur-bleu .important {
+	color: #64B5F6;
+}
+
+
+button {
+	display: block;
+	margin: 0px auto;
+	padding: 6px 8px 6px 8px;
+	background-color: #64B5F6;
+	color: white;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	font-family: Roboto, sans-serif;
+}
+
+a:hover {
+	color: #E57373;
+}

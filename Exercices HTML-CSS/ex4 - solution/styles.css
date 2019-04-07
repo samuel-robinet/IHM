@@ -1,0 +1,93 @@
+/*
+* TODO (1) Donnez a la balise avec l'id "wrapper" un display:flex, et flex-direction: row;
+
+* TODO (2) Supprimez la ligne qui indique que la taille (width) des conteneur est de 50% (flexbox determinera automatiquement la taille)
+
+* TODO (3) Donnez une margin top/left/right de 17px aux conteneurs
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, sans-serif;
+	background-color: #F9F9F9;
+}
+
+#header {
+	margin: 0px;
+	padding: 24px;
+	background-color: #425566;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+h2 {	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 16px;
+	color: white;
+}
+
+.conteneur-rouge h2 {
+	background-color: #E57373;
+}
+.conteneur-bleu h2 {
+	background-color: #64B5F6;
+}
+
+
+.conteneur-rouge, .conteneur-bleu {
+	background-color: white;
+
+	margin-top: 17px;
+	margin-left: 17px;
+	margin-right: 17px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.contenu {
+	padding: 16px;
+}
+
+p {
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 17px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+p:first-child {
+	margin-top: 0px;
+}
+
+.conteneur-rouge .important {
+	color: #E57373;
+}
+.conteneur-bleu .important {
+	color: #64B5F6;
+}
+
+
+button {
+	display: block;
+	margin: 0px auto;
+	padding: 6px 8px 6px 8px;
+	background-color: #64B5F6;
+	color: white;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	font-family: Roboto, sans-serif;
+}
+
+a:hover {
+	color: #E57373;
+}
+
+
+#wrapper {
+	display: flex;
+	flex-direction: row;
+}
