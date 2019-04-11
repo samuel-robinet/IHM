@@ -35,7 +35,7 @@ body {
 	font-size: 20px;
 }
 
-h2 {	
+.conteneur-rouge h2 {	
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 20px;
@@ -44,8 +44,23 @@ h2 {
 	background-color: #E57373;
 	color: white;
 }
+.conteneur-bleu h2 {	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 16px;
+	background-color: #64B5F6;
+	color: white;
+}
 
-.conteneur {
+.conteneur-rouge {
+	background-color: white;
+	width: 50%;
+	margin: 17px auto 0px auto;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+}
+.conteneur-bleu {
 	background-color: white;
 	width: 50%;
 	margin: 17px auto 0px auto;
@@ -62,7 +77,26 @@ p {
 	margin-top: 17px;
 	color: rgba(0, 0, 0, 0.8);
 }
-
-.important {
+.conteneur-rouge .important {
 	color: #E57373;
 }
+.conteneur-bleu .important {
+	color: #64B5F6;
+}
+
+button{
+	background-color:#64B5F6;
+	color: white;
+	padding: 6px 8px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	font-family: Roboto, sans-serif;
+	display:block;
+	margin: 0px auto;
+}
+
+a:hover {
+	color: #E57373;
+}
+
+
+

@@ -93,3 +93,7 @@ button {
 a:hover {
 	color: #E57373;
 }
+
+p:first-child {
+	margin-top: 0px;
+}

@@ -1,10 +1,18 @@
-/*
-* TODO (1) Donnez une background-color de #F9F9F9 a l'element body
-
-* TODO (2) Donnez une background-color de #425566 et une couleur blanche (white) a l'element avec l'id "header"
-
-* TODO (3) Donnez une background-color de #E57373 et une couleur blanche (white) a l'element h2 (titre de niveau 2)
-
-* TODO (4) Donnez une background-color blanche (white) aux elements qui ont la classe "conteneur"
-
-*/
+/*TODO (1) Donnez une background-color de #F9F9F9 a l'element body*/
+body {
+    background-color:#F9F9F9;
+}
+/* TODO (2) Donnez une background-color de #425566 et une couleur blanche (white) a l'element avec l'id "header" */
+#header {
+    background-color:#425566;
+    color: white
+}
+/* TODO (3) Donnez une background-color de #E57373 et une couleur blanche (white) a l'element h2 (titre de niveau 2) */
+h2 {
+    background-color:#E57373;
+    color: white
+}
+/* TODO (4) Donnez une background-color blanche (white) aux elements qui ont la classe "conteneur" */
+.conteneur {
+    background-color:white;
+}

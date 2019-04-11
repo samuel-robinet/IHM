@@ -17,23 +17,51 @@
 
 body {
 	background-color: #F9F9F9;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto",sans-serif;
 }
 
 #header {
 	background-color: #425566;
 	color: white;
+	margin: 0px;
+	padding: 24px;
+	font-weight: normal;
+	font-size: 20px; 
+	text-align: center;
+	
 }
 
 h2 {	
 	background-color: #E57373;
 	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 16px;
+	font-size: 20px; 
+	font-weight: normal;
 }
+
 
 .conteneur {
 	background-color: white;
+	width: 50%;
+	margin-top: 17px;
+	margin-left: auto;
+	margin-right:auto;
+	border: 1px solid rgba(0, 0, 0, 0.14);
 }
 
-
+.contenu{
+	padding: 16px;
+}
 p {
+	font-size: 17px; 
+	text-align: justify;
+	margin-top: 17px;
 	color: rgba(0, 0, 0, 0.8);
+}
+.important{
+	color: #E57373;
 }
